@@ -2,6 +2,7 @@
  * Created by y on 2017/3/1.
  */
 $(document).ready(function(){
+    $('.loading').animate({'width':'100%'},50);
     $("#lo").html("Completed");
     $("#load").fadeOut();
     setTimeout(function(){
@@ -40,5 +41,9 @@ $(function(){
         $(".introduction").hide();
     })
 })
-
+$(function(){
+    $('.c').hover(function(){
+        $(this).children("ul").stop().slideToggle(0);
+    })
+})
 

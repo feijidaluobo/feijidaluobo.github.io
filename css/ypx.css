@@ -126,22 +126,28 @@ body,h2{
 #footer{
     width: 100%;
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
 }
-.div_box{
+ul,li{
+    list-style: none;
+}
+.c{
+    float: left;
+    margin-right: 25%;
+}
+.c ul{
+    display: none;
+    position: absolute;
+}
+.ct{
     width: 50%;
     height: 100%;
     margin: auto;
     position: relative;
-}
-.box{
-    position: absolute;
-    left: 0;
 }
 .num{
     margin-top: 10px;
     font-size: 20px;
     color: white;
 }
-
 

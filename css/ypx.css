@@ -133,14 +133,14 @@ ul,li{
 }
 .c{
     float: left;
-    margin-right: 25%;
+    margin-left: 20%;
 }
 .c ul{
     display: none;
     position: absolute;
 }
 .ct{
-    width: 50%;
+    width: 100%;
     height: 100%;
     margin: auto;
     position: relative;

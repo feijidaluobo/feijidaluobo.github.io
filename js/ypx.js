@@ -4,7 +4,7 @@
 $(document).ready(function(){
     $('.loading').animate({'width':'100%'},50);
     $("#lo").html("Completed");
-    $("#load").fadeOut();
+    $("#load").fadeOut(2000);
     setTimeout(function(){
         $('#i1').animate({'top':'20%'},1000);
         $('#i2').animate({'bottom':'20%'},1000);
